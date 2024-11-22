@@ -1,13 +1,25 @@
 *{
     box-sizing: border-box;
-    padding:  0px;
+    padding:  5px;
     margin: 0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 
 }
 header{
-    grid-area: he;}
+    grid-area: he;
+    color: rgb(0, 135, 104)   ;
+}
+    
 nav{
-    grid-area: na;}
+    grid-area: na;
+    background-color: rgb(0, 135, 104) ;
+    padding: 20px;
+}
+nav>a{
+    text-decoration: none;
+    color: rgb(88, 198, 156);
+}
 aside#left{
     grid-area: le;
 display: grid;
@@ -24,8 +36,26 @@ main{
     'le ri'
     'fo fo'
     ;
+    width: 80%;
 }
+
 #right>img{
-    height: 250px;
-    width: auto;
+    height: auto;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+#hf>img, #kb>img{
+    height: auto;
+    width: 100%;
+    
+}
+main{
+
+    margin-left: auto;
+    margin-right: auto;
+}
+footer>p{
+    color: rgb(88, 198, 156);
+    text-align: center;
 }
