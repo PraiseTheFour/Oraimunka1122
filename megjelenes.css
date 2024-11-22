@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    padding:  0px;
+    margin: 0px;
+
+}
+header{
+    grid-area: he;}
+nav{
+    grid-area: na;}
+aside#left{
+    grid-area: le;
+display: grid;
+grid-template-columns: 1fr 1fr;}
+aside#right{
+    grid-area: ri;}
+main{
+    display: grid;
+    
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: 
+    'he he'
+    'na na'
+    'le ri'
+    'fo fo'
+    ;
+}
+#right>img{
+    height: 250px;
+    width: auto;
+}
